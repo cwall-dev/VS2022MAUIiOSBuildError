@@ -34,14 +34,8 @@
 	</PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'net7.0-ios'">
-    <PackageReference Include="Scandit.DataCapture.Barcode">
-      <Version>6.17.1</Version>
-    </PackageReference>
     <PackageReference Include="Scandit.DataCapture.Core">
-      <Version>6.17.1</Version>
-    </PackageReference>
-    <PackageReference Include="Scandit.DataCapture.Core.Maui">
-      <Version>6.17.1</Version>
+      <Version>6.19.1</Version>
     </PackageReference>
   </ItemGroup>
 
